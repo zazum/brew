@@ -27647,6 +27647,8 @@ class RuboCop::Cask::AST::Stanza
 
   def language?(); end
 
+  def livecheck?(); end
+
   def manpage?(); end
 
   def mdimporter?(); end
